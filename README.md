@@ -31,4 +31,30 @@ stack.print();
 
 This will print the Stack on the Console and you are free to experiment with the wide number of Data Structures available with the Package.
 
-## 🏁 
+## How to use the Package?
+
+This Package has a lot of Data Structures which you can try out. Some of the Data Structures and their particular implementations have been listed below. We are taking the example of Binary Search Tree here. Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+
+To access Binary Search Trees, try out the following script:
+```
+var dataStructureModels = require("data_structure_models");
+var datastructures= new dataStructureModels();
+var bst=datastructures.BinarySerachTree();
+bst.add(5);
+bst.add(3);
+bst.add(8);
+console.log(bst.findMax())
+// Output: 8
+```
+Besides these, other Data Structures that can be called and access using the package are:
+- Hash Table
+- Linked List
+- Priority Queue
+- Queue
+- Stack
+- Doubly Linked List
+- Queue using Linked List
+
+## 📜 LICENSE
+
+[ISC](https://opensource.org/licenses/ISC)
