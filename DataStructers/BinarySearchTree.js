@@ -136,11 +136,11 @@ module.exports = {
 
 /*
     Function Cheat Sheet:
-    BinarySearchTree.Add(item); //Adds item to BinarySearchTree
-    BinarySearchTree.Remove(index); //Removes item from BinarySearchTree
-    BinarySearchTree.GetIndex(index); //Returns item at index
-    BinarySearchTree.FindMin(); //Returns smallest item
-    BinarySearchTree.FindMax(); //Returns largest item
-    BinarySearchTree.FindHieght(); //Returns the hieght of BinarySearchTree
-    BinarySearchTree.Traverse(); //Console logs all items in order
+    BinarySearchTree.add(item); //Adds item to BinarySearchTree
+    BinarySearchTree.remove(index); //Removes item from BinarySearchTree
+    BinarySearchTree.getIndex(index); //Returns item at index
+    BinarySearchTree.findMin(); //Returns smallest item
+    BinarySearchTree.findMax(); //Returns largest item
+    BinarySearchTree.FindHeight(); //Returns the hieght of BinarySearchTree
+    BinarySearchTree.traverse(); //Console logs all items in order
 */

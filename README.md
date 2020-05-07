@@ -4,7 +4,7 @@
   <a href="https://github.com/HarshCasper/Data-Structures">
     <img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/Data_Structures_1_by_1_white-UYCcaA.png" alt="Logo" width="200" height="200">
   </a>
-
+</p>
 ## 📌 Introduction
 
 <b>Data Structures</b> is an NPM Package built for Developers to get a High-Level API Access to various Data Structures. This is my first NPM Package and this tool was developed for practising various Data Structures and was later wrapped as a Package and published on NPM.
@@ -22,8 +22,8 @@ $ npm install data_structure_models
 After installation of the the Package, you can run the following script to validate if the Package is running fit and fine:
 ```
 var dataStructureModels = require("data_structure_models");
-var datastructures= new dataStructureModels();
-var stack=datastructures.Stack();
+var datastructures = new dataStructureModels();
+var stack = datastructures.Stack();
 stack.push(5);
 stack.push(3);
 stack.print();
@@ -38,8 +38,8 @@ This Package has a lot of Data Structures which you can try out. Some of the Dat
 To access Binary Search Trees, try out the following script:
 ```
 var dataStructureModels = require("data_structure_models");
-var datastructures= new dataStructureModels();
-var bst=datastructures.BinarySerachTree();
+var datastructures = new dataStructureModels();
+var bst = datastructures.BinarySearchTree();
 bst.add(5);
 bst.add(3);
 bst.add(8);
@@ -54,6 +54,7 @@ Besides these, other Data Structures that can be called and access using the pac
 - Stack
 - Doubly Linked List
 - Queue using Linked List
+- Binary Search Tree
 
 ## 📜 LICENSE
 

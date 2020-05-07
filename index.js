@@ -17,14 +17,14 @@ module.exports = function(){
     }
 
     this.Queue = function(){
-        return new q.Queue(); 
+        return new q.Queue();
     }
 
     this.QueueLinked = function(){
         return new ql.LinkedQueue();
     }
 
-    this.PriortyQueue = function(){
+    this.PriorityQueue = function(){
         return new pq.PriorityQueue();
     }
 
@@ -32,7 +32,7 @@ module.exports = function(){
         return new s.Stack();
     }
 
-    this.BinarySerachTree = function(){
+    this.BinarySearchTree = function(){
         return new bst.BinarySearchTree();
     }
 

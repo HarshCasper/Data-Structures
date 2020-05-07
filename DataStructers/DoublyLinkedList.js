@@ -124,11 +124,11 @@ module.exports = {
 
 /*
     Function Cheat Sheet:
-    DoublyLinkedList.insertFirst(item); //Adds item at the start of the DoublyLinkedList
+    DoublyLinkedList.insert(item); //Adds item at the start of the DoublyLinkedList
     DoublyLinkedList.insertIndex(item); //Adds item at the end of the DoublyLinkedList
-    DoublyLinkedList.getIndex(index); //Returns value at the index of the DoublyLinkedLst
+    DoublyLinkedList.getIndex(index); //Returns value at the index of the DoublyLinkedList
     DoublyLinkedList.removeIndex(index); //Removes the item at the indexs of the DoublyLinkedList
-    DoublyLinkedList.clearAll(); // Removes all the items in the DoublyLinkedList
+    DoublyLinkedList.clearList(); // Removes all the items in the DoublyLinkedList
     DoublyLinkedList.print(); //Console logs all items of the DoublyLinkedList
     DoublyLinkedList.printReverse(); //Console logs all items of the DoublyLinkedList in reverse
 */

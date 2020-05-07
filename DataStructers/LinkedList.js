@@ -129,6 +129,6 @@ module.exports = {
     LinkedList.getIndex(index); //Returns value at the index of the LinkedLst
     LinkedList.removeFirst(); //Removes the first item of the LinkedList
     LinkedList.removeIndex(index); //Removes the item at the indexs of the LinkedList
-    LinkedList.clearAll(); // Removes all the items in the LinkedList
+    LinkedList.clearList(); // Removes all the items in the LinkedList
     LinkedList.print(); //Console logs all items of the LinkedList
 */
